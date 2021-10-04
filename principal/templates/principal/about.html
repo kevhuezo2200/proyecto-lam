@@ -1,0 +1,38 @@
+
+ {% extends 'principal/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background%}{% load static %}{% static 'principal/img/about-lam.jpg' %}{% endblock%}
+
+
+{% block headers %}
+ <h1>Logística y Eventos LAM</h1>
+              <span class="subheading">Conoce acerca de nosotros</span>
+{% endblock%}
+
+
+{% block content %}
+  <div class="row"> 
+    <div class="col-lg-4 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'principal/img/logo.png' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        
+        <h2 class="section-heading" align = "center">Misión</h2> 
+        <p align = "Justify">Somos una empresa dedicada a la logística y montaje de eventos sociales,  orientada a satisfacer las necesidades de las personas en general, basado en el trabajo en equipo,
+         la experiencia y la ilusión. </p><br>
+        <h2 class="section-heading" align = "center">Visión</h2> 
+        <p align = "Justify">Ser reconocida como la mejor empresa en el sector de realización de eventos en la zona norte del país, distinguiéndose por su competencia en su servicio 
+        personalizado y adaptable a lo que requiere el cliente, cumpliendo con cada uno de los servicios adquiridos.
+        </p><br>
+        <h2 class="section-heading" align = "center" >Logística y Eventos LAM</h2>   
+        <p align = "Justify" >Desarrollo Logístico y Montaje de Evenabo1LAM, brinda el servicio de alquileres de mesas rectangulares plegables, 
+        mesas redondas plegables, sillas plásticas con forro  sillas tifany, chafing  y cuchareo, Azafates, Charolas,  
+        con el servicio profesional de atención en mesas (meseros).</p>
+        <p align = "justify">La empresa está ubicada en el municipio de Guazapa departamento de San Salvador, cubre el mercado de clientes de Aguilares y el Paisnal; 
+        además, con posibilidades de cobertura en Tejutla, Nueva Concepción y El Paraíso, municipios pertenecientes al departamento de Chalatenango.</p>
+    </div>
+     
+</div>
+{% endblock %}
